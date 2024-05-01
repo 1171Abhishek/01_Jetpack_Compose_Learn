@@ -1,0 +1,7 @@
+modifier.size(screenWidth*1/4)
+modifier.weight(1f)
+box - contentAlignment
+compose material api reference
+scaffold
+lazy component
+add support for multiple language like hindi , english
