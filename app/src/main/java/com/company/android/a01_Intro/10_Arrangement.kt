@@ -41,10 +41,12 @@ SpaceEvenly: Distributes equal space between all elements, including the start a
  */
 
 
-/*
+/**
 Alignment vs Arrangement:
 
-It's important to distinguish between arrangement and alignment. Arrangement controls the distribution of space, while alignment defines the positioning of individual elements within their allocated space. You can use both together to achieve the desired layout.
+It's important to distinguish between arrangement and alignment. Arrangement controls the distribution of space,
+ while alignment defines the positioning of individual elements within their allocated space. You can use both
+  together to achieve the desired layout.
  */
 
 @Composable

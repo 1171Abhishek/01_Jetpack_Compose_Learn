@@ -1,7 +1,10 @@
 package com.company.android.a01_Intro
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -22,11 +25,11 @@ fun PaddingFunction() {
     )
 }
 
-
-@Preview(/*showSystemUi = true*/ showBackground = true)
+@Preview(/*showSystemUi = true */showBackground = true)
 @Composable
 fun PreviewPaddingFunction() {
     AndroidTheme {
         PaddingFunction()
+
     }
 }

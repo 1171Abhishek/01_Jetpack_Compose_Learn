@@ -34,6 +34,9 @@ Positioning:  Box provides options to control the alignment of its child element
 You can position them at the center, top, bottom, left, right, or any combination of
 these.
  */
+
+/* we can use .align in box easily
+*/
 @Composable
 fun BoxFunction() {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
