@@ -41,12 +41,25 @@ fun ContentScaleFunction() {
             Image(
                 painter = painterResource(id = R.drawable.wallpaper),
                 contentDescription = null,
-//                contentScale = ContentScale.Crop        // Scale the source to fit the destination while maintaining aspect ratio.
-//                contentScale = ContentScale.FillBounds  // Scale horizontal and vertically non-uniformly to fill the destination bounds.
-//                contentScale = ContentScale.FillHeight  // Scale the source maintaining the aspect ratio so that the bounds match the destination height.
-//                contentScale = ContentScale.FillWidth   // Scale the source maintaining the aspect ratio so that the bounds match the destination width.
-//                contentScale = ContentScale.Fit         // Uniformly scale the source to ensure both width and height are equal to or less than the destination while maintaining aspect ratio.
-                contentScale = ContentScale.None     // "Uniformly scale the source to ensure both width and height are equal to or less than the destination while maintaining aspect ratio."
+                // Scale the source to fit the destination while maintaining aspect ratio.
+//                contentScale = ContentScale.Crop
+
+                // Scale horizontal and vertically non-uniformly to fill the destination bounds.
+//                contentScale = ContentScale.FillBounds
+
+                // Scale the source maintaining the aspect ratio so that the bounds match the destination height.
+//                contentScale = ContentScale.FillHeight
+
+                // Scale the source maintaining the aspect ratio so that the bounds match the destination width.
+//                contentScale = ContentScale.FillWidth
+
+                // Uniformly scale the source to ensure both width and height are equal to or less than the destination while maintaining aspect ratio.
+//                contentScale = ContentScale.Fit
+
+                // "Uniformly scale the source to ensure both width and height are equal to or less than the destination while maintaining aspect ratio."
+//                contentScale = ContentScale.None
+
+                contentScale = ContentScale.Inside
             )
         }
 
