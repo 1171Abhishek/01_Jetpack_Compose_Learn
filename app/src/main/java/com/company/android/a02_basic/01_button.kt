@@ -49,7 +49,10 @@ fun ButtonFunction() {
         TextButton(onClick = { /*TODO*/ }) {
             Text(text = "Click")
         }
-
+        /**
+         * Important: Check how many types of buttons are available and then use them accordingly to your needs.
+         * To check : Type Button and see suggestion for buttons. And explore all options.
+         */
     }
 
 }
